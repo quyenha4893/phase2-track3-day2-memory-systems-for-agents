@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Prompt Window",
+    "content": "Prompt window la bo nho ngan han duoc inject vao moi lan goi model. No thuong gom short-term context, profile facts quan trong, episodic records lien quan va semantic hits can thiet."
+  },
+  {
+    "title": "Vector Store",
+    "content": "Vector store la backend pho bien cho semantic memory. No giup retrieve cac doan tai lieu co y nghia gan voi query thay vi chi match keyword."
+  },
+  {
+    "title": "Conflict Handling",
+    "content": "Khi user sua fact cu, fact moi phai duoc uu tien thay vi append ca hai gia tri mau thuan vao profile."
+  },
+  {
+    "title": "Privacy and TTL",
+    "content": "Memory dai han co the chua PII. He thong can consent, deletion flow, TTL va audit de tranh luu thong tin nhay cam qua lau."
+  },
+  {
+    "title": "Docker Debug Lesson",
+    "content": "Trong nhieu bai debug local-stack, nen dung docker service name thay vi localhost khi service giao tiep trong cung docker network."
+  },
+  {
+    "title": "Semantic Retrieval Fallback",
+    "content": "Neu chua co vector database, keyword search fallback van duoc chap nhan neu giao dien semantic memory ro rang."
+  }
+]

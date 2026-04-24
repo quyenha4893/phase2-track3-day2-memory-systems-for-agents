@@ -1,0 +1,183 @@
+{
+  "rows": [
+    {
+      "id": 1,
+      "scenario": "Recall user name",
+      "no_memory_result": "Ten ban la minh chua biet",
+      "with_memory_result": "Ten ban la Linh",
+      "pass": true,
+      "no_memory_baseline_ok": true,
+      "with_memory_retrieval": {
+        "intents": [
+          "profile"
+        ],
+        "profile_keys": [
+          "name"
+        ],
+        "episodes": 0,
+        "semantic": 0
+      }
+    },
+    {
+      "id": 2,
+      "scenario": "Allergy conflict update",
+      "no_memory_result": "Thong tin di ung hien tai: chua co",
+      "with_memory_result": "Thong tin di ung hien tai: dau nanh",
+      "pass": true,
+      "no_memory_baseline_ok": true,
+      "with_memory_retrieval": {
+        "intents": [
+          "profile"
+        ],
+        "profile_keys": [
+          "allergy"
+        ],
+        "episodes": 0,
+        "semantic": 0
+      }
+    },
+    {
+      "id": 3,
+      "scenario": "Preference recall",
+      "no_memory_result": "So thich da luu: chua co",
+      "with_memory_result": "So thich da luu: python",
+      "pass": true,
+      "no_memory_baseline_ok": true,
+      "with_memory_retrieval": {
+        "intents": [
+          "profile"
+        ],
+        "profile_keys": [
+          "likes"
+        ],
+        "episodes": 0,
+        "semantic": 0
+      }
+    },
+    {
+      "id": 4,
+      "scenario": "Episodic debug recall",
+      "no_memory_result": "Minh khong co episodic memory lien quan.",
+      "with_memory_result": "Lan truoc ket qua la: Lan truoc ket qua la: Minh khong co episodic memory lien quan.",
+      "pass": true,
+      "no_memory_baseline_ok": true,
+      "with_memory_retrieval": {
+        "intents": [
+          "episodic"
+        ],
+        "profile_keys": [],
+        "episodes": 1,
+        "semantic": 0
+      }
+    },
+    {
+      "id": 5,
+      "scenario": "Semantic docker retrieval",
+      "no_memory_result": "Minh khong tim thay semantic knowledge phu hop.",
+      "with_memory_result": "Thong tin semantic: In docker compose networking, containers should call each other using service name instead of localhost.",
+      "pass": true,
+      "no_memory_baseline_ok": true,
+      "with_memory_retrieval": {
+        "intents": [
+          "semantic"
+        ],
+        "profile_keys": [],
+        "episodes": 0,
+        "semantic": 1
+      }
+    },
+    {
+      "id": 6,
+      "scenario": "Semantic token budget",
+      "no_memory_result": "Minh khong tim thay semantic knowledge phu hop.",
+      "with_memory_result": "Thong tin semantic: Token budget allocation example: short-term 10 percent, long-term 4 percent, episodic 3 percent, semantic 3 percent.",
+      "pass": true,
+      "no_memory_baseline_ok": true,
+      "with_memory_retrieval": {
+        "intents": [
+          "semantic"
+        ],
+        "profile_keys": [],
+        "episodes": 0,
+        "semantic": 1
+      }
+    },
+    {
+      "id": 7,
+      "scenario": "Cross-topic recall",
+      "no_memory_result": "Ten ban la minh chua biet",
+      "with_memory_result": "Ten ban la An",
+      "pass": true,
+      "no_memory_baseline_ok": true,
+      "with_memory_retrieval": {
+        "intents": [
+          "profile"
+        ],
+        "profile_keys": [
+          "name",
+          "likes"
+        ],
+        "episodes": 0,
+        "semantic": 0
+      }
+    },
+    {
+      "id": 8,
+      "scenario": "Redis factual recall",
+      "no_memory_result": "Thong tin di ung hien tai: chua co",
+      "with_memory_result": "Thong tin di ung hien tai: dau phong",
+      "pass": true,
+      "no_memory_baseline_ok": true,
+      "with_memory_retrieval": {
+        "intents": [
+          "profile"
+        ],
+        "profile_keys": [
+          "allergy"
+        ],
+        "episodes": 0,
+        "semantic": 0
+      }
+    },
+    {
+      "id": 9,
+      "scenario": "Semantic redis concept",
+      "no_memory_result": "Minh khong tim thay semantic knowledge phu hop.",
+      "with_memory_result": "Thong tin semantic: Redis stores user profile facts efficiently with hash operations and TTL for retention control.",
+      "pass": true,
+      "no_memory_baseline_ok": true,
+      "with_memory_retrieval": {
+        "intents": [
+          "semantic"
+        ],
+        "profile_keys": [],
+        "episodes": 0,
+        "semantic": 1
+      }
+    },
+    {
+      "id": 10,
+      "scenario": "Episodic troubleshooting recall",
+      "no_memory_result": "Minh khong co episodic memory lien quan.",
+      "with_memory_result": "Lan truoc ket qua la: Minh da xu ly yeu cau cua ban.",
+      "pass": true,
+      "no_memory_baseline_ok": true,
+      "with_memory_retrieval": {
+        "intents": [
+          "episodic"
+        ],
+        "profile_keys": [],
+        "episodes": 1,
+        "semantic": 0
+      }
+    }
+  ],
+  "summary": {
+    "total_scenarios": 10,
+    "memory_hit_rate": 1.0,
+    "with_memory_pass_count": 10,
+    "no_memory_token_estimate": 376,
+    "with_memory_token_estimate": 452,
+    "token_efficiency_delta": -76
+  }
+}

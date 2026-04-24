@@ -1,0 +1,12 @@
+[
+  "In docker compose networking, containers should call each other using service name instead of localhost.",
+  "For API debugging, check request payload, status code, and server logs before changing business logic.",
+  "Async await bugs in JavaScript often come from missing await or unhandled promise rejection.",
+  "Redis stores user profile facts efficiently with hash operations and TTL for retention control.",
+  "Context window overflow can reduce answer quality, so trim low-priority memory first.",
+  "Chroma can store vectors with metadata and retrieve top-k relevant chunks by cosine similarity.",
+  "If a user updates a fact, the newer fact should override the older one in profile memory.",
+  "Privacy by design means collecting minimal personal data and honoring deletion requests.",
+  "Token budget allocation example: short-term 10 percent, long-term 4 percent, episodic 3 percent, semantic 3 percent.",
+  "Episodic memory records task, trajectory, outcome, and reflection to guide future decisions."
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "user_id": "user_4",
+    "task": "Hom qua toi debug API va da fix bang cach check status code",
+    "trajectory": "Asked assistant for troubleshooting guidance",
+    "outcome": "Minh khong co episodic memory lien quan.",
+    "reflection": "Prefer validated root-cause steps before code changes",
+    "timestamp": "2026-04-24T05:32:49.587611+00:00"
+  },
+  {
+    "user_id": "user_4",
+    "task": "Toi muon ghi nho bai hoc debug",
+    "trajectory": "Asked assistant for troubleshooting guidance",
+    "outcome": "Lan truoc ket qua la: Minh khong co episodic memory lien quan.",
+    "reflection": "Prefer validated root-cause steps before code changes",
+    "timestamp": "2026-04-24T05:32:49.587611+00:00"
+  },
+  {
+    "user_id": "user_4",
+    "task": "Lan truoc toi debug xong nhu the nao?",
+    "trajectory": "Asked assistant for troubleshooting guidance",
+    "outcome": "Lan truoc ket qua la: Lan truoc ket qua la: Minh khong co episodic memory lien quan.",
+    "reflection": "Prefer validated root-cause steps before code changes",
+    "timestamp": "2026-04-24T05:32:49.587611+00:00"
+  },
+  {
+    "user_id": "user_10",
+    "task": "Toi vua fix loi async await do quen await",
+    "trajectory": "Asked assistant for troubleshooting guidance",
+    "outcome": "Minh da xu ly yeu cau cua ban.",
+    "reflection": "Prefer validated root-cause steps before code changes",
+    "timestamp": "2026-04-24T05:32:49.601754+00:00"
+  },
+  {
+    "user_id": "user_10",
+    "task": "Lan truoc toi fix loi async the nao?",
+    "trajectory": "Asked assistant for troubleshooting guidance",
+    "outcome": "Lan truoc ket qua la: Minh da xu ly yeu cau cua ban.",
+    "reflection": "Prefer validated root-cause steps before code changes",
+    "timestamp": "2026-04-24T05:32:49.604318+00:00"
+  }
+]
